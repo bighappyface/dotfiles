@@ -1,0 +1,12 @@
+[user]
+	name = davi4797
+	email = david.porter@rackspace.com
+[push]
+	default = simple
+	followTags = true
+[core]
+	filemode = false
+	autocrlf = input
+	excludesfile = ~/.gitignore_global
+[url "https://"]
+	insteadOf = git://
