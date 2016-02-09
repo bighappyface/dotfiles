@@ -1,5 +1,7 @@
 # dotfiles
 
+See https://dotfiles.github.io/
+
 ## Setup
 
 I'll get around to automating this more as time goes by.
