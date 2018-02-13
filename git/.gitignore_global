@@ -35,6 +35,7 @@ Thumbs.db
 # Node
 .npm
 node_modules
+package-lock.json
 
 # Puppet
 .librarian
@@ -51,3 +52,20 @@ node_modules
 
 # Mozilla (normally automated browser testing files)
 .mozilla
+
+# Headless process output
+nohup.out
+
+errorShots
+tmp.php
+
+Vagrantfile
+
+*.bak
+
+liveagent-sandbox.html
+rjl
+
+# Python
+.pyenv
+.pytest_cache
