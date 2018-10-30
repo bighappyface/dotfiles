@@ -15,14 +15,16 @@
 	alias = !git config --list | grep alias
 	au = !git add -u . && git status
 	aa = !git add . && git add -u . && git status
-        b = branch
+        b = rev-parse --abbrev-ref HEAD
 	c = commit
 	cm = commit -m
 	ca = commit --amend
 	d = diff
+        dc = diff --cached
 	l = log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
 	ll = log --stat --abbrev-commit
 	lg = log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	llg = log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
 	master = checkout master
+        rv = remote -v
 	s = status
