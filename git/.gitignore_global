@@ -69,3 +69,12 @@ rjl
 # Python
 .pyenv
 .pytest_cache
+
+# Salesforce DX
+.sfdx
+
+# Visual Studio
+.vscode
+
+# Environment
+.env
