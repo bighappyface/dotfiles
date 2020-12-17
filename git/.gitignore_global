@@ -46,6 +46,7 @@ package-lock.json
 # Patches
 *.patch
 *.diff
+interdiff*.txt
 
 # Jetbrains
 .idea
@@ -78,3 +79,9 @@ rjl
 
 # Environment
 .env
+
+# SSH Keys
+id_rsa*
+
+# jenv
+.java-version

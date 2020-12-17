@@ -1,7 +1,11 @@
+# Prompt
+PROMPT='%2~ %# '
+
 # Alias
 alias ll='ls -laG'
 
 # Completion
-if [ -f ~/.dotfiles/git/.git-completion.zsh ]; then
-  . ~/.dotfiles/git/.git-completion.zsh
-fi
+zstyle ':completion:*:*:git:*' script ~/.dotfiles/zsh/git-completion.zsh
+fpath=(~/.dotfiles/zsh $fpath)
+autoload -U compinit && compinit
+zmodload -i zsh/complist
